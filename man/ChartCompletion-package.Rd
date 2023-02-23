@@ -8,4 +8,12 @@
 \description{
 Visualizes chart completion rates over time to better understand the effectiveness of interventions and improvements.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/samuelkordik/ChartCompletion}
+  \item Report bugs at \url{https://github.com/samuelkordik/ChartCompletion/issues}
+}
+
+}
 \keyword{internal}

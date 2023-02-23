@@ -42,7 +42,7 @@ get_open_chart_stats <- function() {
 #
 #   open_chart_stats %>% write_rds(here::here("data/open_calls.rds"))
   open_chart_stats <- read_rds(here::here("data/open_calls.rds"))
-  open_chart_stats()
+  open_chart_stats
   }
 
 
