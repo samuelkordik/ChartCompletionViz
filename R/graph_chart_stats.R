@@ -77,8 +77,8 @@ graph_chart_stats <- function(remove_worst_performers = NULL) {
     pivot_longer(!testDate, names_to="Measure", values_to = "Value") %>%
     mutate(Value = paste0(round(Value, 4)*100, "%")) %>%
     ggplot(aes(x=1, y=4:1)) +
-    geom_text(aes(label=Measure), size=8) +
-    geom_text(aes(label=Value), nudge_y = .3, size=12, fontface="bold") +
+    geom_text(aes(label=Measure), size=5) +
+    geom_text(aes(label=Value), nudge_y = .3, size=8, fontface="bold") +
     theme_void() + ggtitle(paste0("Current Performance, as of ", curr_date)) -> p2
 
   library(patchwork)

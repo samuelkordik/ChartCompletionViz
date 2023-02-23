@@ -28,7 +28,7 @@ library(ChartCompletion)
 graph_chart_stats()
 ```
 Looking at individual employees highlights which individuals have substantially worse performance as well as to understand individual performance over time. This can be correlated with external events, such as training periods, times of external stress such as illnesses or divorces, and individual work loads. An individual with a season of poor performance correlated with an external stressor that self-resolved is typically not someone that needs additional help, while an individual with significant poor performance likely needs help to catch up and coaching to avoid getting behind in the future.
-```{r per_provider_performance, echo=FALSE, fig.height=8, fig.width=4, message=FALSE, warning=FALSE}
+```{r per_provider_performance, echo=FALSE, fig.height=24, fig.width=12, message=FALSE, warning=FALSE}
 graph_chart_by_provider()
 ```
 
