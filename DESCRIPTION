@@ -1,0 +1,24 @@
+Package: ChartCompletion
+Type: Package
+Title: Visualizes chart completion rates over time
+Version: 0.1.0
+Author: Samuel Kordik <samuel@samuelkordik.com>
+Maintainer: Samuel Kordik <samuel@samuelkordik.com>
+Description: Visualizes chart completion rates over time to better
+    understand the effectiveness of interventions and improvements.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    magrittr
+Imports: 
+    glue,
+    cli,
+    lifecycle,
+    rlang,
+    withr,
+    dplyr,
+    ggplot2,
+    patchwork
+RoxygenNote: 7.1.2
+Roxygen: list(markdown = TRUE)
