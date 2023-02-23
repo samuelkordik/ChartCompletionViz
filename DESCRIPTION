@@ -22,3 +22,5 @@ Imports:
     patchwork
 RoxygenNote: 7.1.2
 Roxygen: list(markdown = TRUE)
+URL: https://github.com/samuelkordik/ChartCompletion
+BugReports: https://github.com/samuelkordik/ChartCompletion/issues
